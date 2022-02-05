@@ -1,5 +1,5 @@
 # Data-Structures-in-Golang
-An exercise to implement classic data structures in golang. The code is written in a self-explaining manner.
+An exercise to implement classic data structures in golang. The code is written in a self-explaining manner. Due to the fact that generic hasn't been implemented in Golang yet, all the data structures implemented here are using integers as an example.
 ## Content
 1. Dynamic Array
 2. Doubly Linked List
