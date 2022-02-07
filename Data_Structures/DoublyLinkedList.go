@@ -153,7 +153,7 @@ func (d *DoublyLinkedList) remove(i int) {
 	}
 }
 
-func (d *DoublyLinkedList) isEmpty() bool {
+func (d DoublyLinkedList) isEmpty() bool {
 	if d.size == 0 {
 		return true
 	} else {
@@ -161,11 +161,11 @@ func (d *DoublyLinkedList) isEmpty() bool {
 	}
 }
 
-func (d *DoublyLinkedList) getSize() int {
+func (d DoublyLinkedList) getSize() int {
 	return d.size
 }
 
-func (d *DoublyLinkedList) String() string {
+func (d DoublyLinkedList) String() string {
 	if d.isEmpty() {
 		return "Currently the list has nothing with it......\n"
 	} else {

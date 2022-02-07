@@ -53,7 +53,7 @@ func (x *DynamicArray) set(index, ele int) {
 	fmt.Printf("New element set: %d at position %d\n", ele, index)
 }
 
-func (x *DynamicArray) getSize() int {
+func (x DynamicArray) getSize() int {
 	return x.size
 }
 
@@ -69,7 +69,7 @@ func (x *DynamicArray) remove(index int) {
 	}
 }
 
-func (x *DynamicArray) isEmpty() bool {
+func (x DynamicArray) isEmpty() bool {
 	if x.size == 0 {
 		return true
 	} else {
@@ -77,7 +77,7 @@ func (x *DynamicArray) isEmpty() bool {
 	}
 }
 
-func (x *DynamicArray) String() string {
+func (x DynamicArray) String() string {
 	info := fmt.Sprintf("Size of the Dynamic Array:%d, current elements: ", x.size)
 	if !x.isEmpty() {
 		for i := 0; i < x.size; i += 1 {
