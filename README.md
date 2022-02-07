@@ -13,3 +13,5 @@ An exercise to implement classic data structures in golang. The code is written 
 10. Suffix Array
 11. AVL Tree
 12. Indexed Priority Queue
+## Usage
+The code is for reference only and not tested on production environment. The implementation might not be perfect, since they are for exercise only. Before using any of these code, it is strongly recommended that you change the package name and comment out the unnecessary Println lines.
