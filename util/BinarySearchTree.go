@@ -1,4 +1,4 @@
-package main
+package util
 
 import (
 	"fmt"
@@ -160,6 +160,7 @@ func (b BinarySearchTree) isEmpty() bool {
 	return b.size == 0
 }
 
+/*
 func main() {
 	fmt.Println("------Binary Search Tree Testing------")
 	bst := BinarySearchTree{}
@@ -190,3 +191,4 @@ func main() {
 	fmt.Println(status)
 	bst.remove(1000)
 }
+*/
